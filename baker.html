@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Quality Bakers </title>
+    <style>
+		*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(qb.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar{
+	width: 85%;
+	font-size: 18px;
+	font-weight: bold;
+	margin: auto;
+	padding: 35px 0;
+	padding-top: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 380px;
+	height: 55px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin: 0 20px;	
+	position: relative;
+
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 2.5px;
+	width: 0;
+	background:rosybrown;
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	transition: 0.60s;
+
+}
+
+.navbar ul li:hover:after{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 28%;
+	text-align: center;
+	color: white;
+
+}
+
+.content h1{
+	font-size: 53px;
+	margin-top: 25px;
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 25px;
+
+}
+
+.btn{
+	border: 4px solid rosybrown;
+	padding: 10px 30px;
+	margin: 10px;;
+	color: white;
+	text-decoration: none;
+	transition: 0.5s ease;
+	font-size: 23px;
+	font-weight: bold;
+
+}
+
+.btn:hover{
+	background-color:rosybrown;
+	color: black;
+}
+
+.button{
+	position: absolute;
+	top: 110%;
+	left: 35%;
+}
+
+	</style>
+</head>
+<body>
+
+    
+<div class="banner">
+	<div class="navbar">
+	<img src="quality.png" class="logo">	
+	    <ul>
+			<li><a href="website.html">FOODILICIOUS</a></li>
+			<li><a href="#">SHOPPING CART</a></li>
+			<li><a href="#">LOGIN</a></li>
+		
+	    </ul>
+	</div>
+	
+
+	<div class="content">
+        
+		<h1>MOUTHWATERING TASTE, EXCEPTIONAL SERVICE</h1>	
+		<p>Fresh and tasty cakes for you and your loved ones.<br>
+        Croissants and biscuits available at a very cheap price<br>
+        Flat 10% off on any purchase above 100$.<br>
+        Flat 15$ delivery fee on all orders.<br>
+        To check whether your area is servicable or not, click on the "Enter Zip Code" button. <br>
+        Click on "Start Shopping" to browse through the products.<br>
+        </p>	
+        <div class="button">
+			
+			<a href="#" class="btn">Enter Zip Code</a>	
+            <a href="#" class="btn">Start Shopping</a>			
+		</div>
+		
+		
+	</div>
+	
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

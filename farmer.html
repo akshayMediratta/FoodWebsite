@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Farmer's Fresh</title>
+    <style>
+		*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(farm1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar{
+	width: 85%;
+	font-size: 18px;
+	font-weight: bold;
+	margin: auto;
+	padding: 35px 0;
+	padding-top: 52px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 380px;
+	height: 55px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin: 0 20px;	
+	position: relative;
+
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 2.5px;
+	width: 0;
+	background:deepskyblue;
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	transition: 0.60s;
+
+}
+
+.navbar ul li:hover:after{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 28%;
+	text-align: center;
+	color:white;
+
+}
+
+.content h1{
+	font-size: 60px;
+	margin-top: 25px;
+	font-weight: bold;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 25px;
+
+}
+
+.btn{
+	border: 4px solid deepskyblue;
+	padding: 10px 30px;
+	margin: 10px;;
+	color: white;
+	text-decoration: none;
+	transition: 0.5s ease;
+	font-size: 23px;
+	font-weight: bold;
+
+}
+
+.btn:hover{
+	background-color:deepskyblue;
+	color: black;
+}
+
+.button{
+	position: absolute;
+	top: 110%;
+	left: 35%;
+}
+
+	</style>
+</head>
+<body>
+
+    
+<div class="banner">
+	<div class="navbar">
+	<img src="11.png" class="logo">	
+	    <ul>
+			<li><a href="website.html">FOODILICIOUS</a></li>
+			<li><a href="#">SHOPPING CART</a></li>
+			<li><a href="#">LOGIN</a></li>
+		
+	    </ul>
+	</div>
+	
+
+	<div class="content">
+        
+		<h1>DIRECTLY FROM FARMS TO YOUR HOUSE</h1>	
+		<p>Get fresh fruits and vegetables delivered the next day.<br> At farmer's fresh, all the fruits and vegetables are 100% organic.<br>
+        Get flat 15$ off on any purchase above 200$.<br>
+        Free delivery upto 5km and flat 10$ delivery fee for greater distances.<br>
+        To check whether your area is servicable or not, click on the "Enter zip code" button. <br>
+        Click on "Order Now" to browse through the inventory and place your order.<br>
+        </p>	
+        <div class="button">
+			
+			<a href="#" class="btn">Enter zip code</a>	
+            <a href="#" class="btn">Order Now</a>			
+		</div>
+		
+		
+	</div>
+	
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
